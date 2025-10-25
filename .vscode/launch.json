@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Launch (McpClientConsole)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/McpClientConsole/bin/Debug/net9.0/McpClientConsole.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/McpClientConsole",
+      "stopAtEntry": false,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    }
+    ,
+    {
+      "name": ".NET Launch (McpClientLlm)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/McpClientLlm/bin/Debug/net9.0/McpClientLlm.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/McpClientLlm",
+      "envFile": "${workspaceFolder}/McpClientLlm/.env",
+      "stopAtEntry": false,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    }
+  ]
+}
