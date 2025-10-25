@@ -2,6 +2,18 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": ".NET Launch (McpCalculatorServer)",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/McpCalculatorServer/bin/Debug/net9.0/McpCalculatorServer.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/McpCalculatorServer",
+      "stopAtEntry": false,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    }
+    ,
+    {
       "name": ".NET Launch (McpClientConsole)",
       "type": "coreclr",
       "request": "launch",

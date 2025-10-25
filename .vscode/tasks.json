@@ -7,6 +7,20 @@
       "type": "process",
       "args": [
         "build",
+        "${workspaceFolder}/McpCalculatorServer/McpCalculatorServer.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
         "${workspaceFolder}/McpClientConsole/McpClientConsole.csproj"
       ],
       "problemMatcher": "$msCompile",

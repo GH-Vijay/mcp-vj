@@ -1,0 +1,13 @@
+{
+    "inputs": [],
+    "servers": {
+      "calculator-server": {
+          "command": "dotnet",
+          "args": [
+              "run",
+              "--project",
+              "../McpCalculatorServer/McpCalculatorServer.csproj"
+          ]
+      }
+    }
+}

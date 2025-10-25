@@ -55,10 +55,10 @@ try
     // Addition
     var addResult = await mcpClient.CallToolAsync(
         "add",
-        new Dictionary<string, object?>() { ["a"] = 5, ["b"] = 3 },
+        new Dictionary<string, object?>() { ["a"] = 3, ["b"] = 8 },
         cancellationToken: CancellationToken.None
     );
-    Console.WriteLine($"Add 5 + 3 = {ExtractTextResult(addResult)}");
+    Console.WriteLine($"Sum from client = {ExtractTextResult(addResult)}");
 
     // // Subtraction
     // var subtractResult = await mcpClient.CallToolAsync(
