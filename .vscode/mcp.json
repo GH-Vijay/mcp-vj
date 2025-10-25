@@ -3,10 +3,11 @@
     "servers": {
       "calculator-server": {
           "command": "dotnet",
+          "cwd": "${workspaceFolder}",
           "args": [
               "run",
               "--project",
-              "../McpCalculatorServer/McpCalculatorServer.csproj"
+              "${workspaceFolder}/McpCalculatorServer/McpCalculatorServer.csproj"
           ]
       }
     }
