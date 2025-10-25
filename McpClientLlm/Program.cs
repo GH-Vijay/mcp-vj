@@ -48,7 +48,7 @@ for (int i = 0; i < response.Value.ToolCalls.Count; i++)
     var respText = (ModelContextProtocol.Protocol.TextContentBlock?)result.Content.FirstOrDefault(c => c.Type == "text");
     if (respText != null)
     {
-        Console.WriteLine("Result of Tool Call: " + respText.Text);
+        Console.WriteLine($"Result of Tool Call '{call.FunctionName}': " + respText.Text);
     }
 
 }
