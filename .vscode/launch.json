@@ -17,13 +17,11 @@
       "name": ".NET Launch (McpClientLlm)",
       "type": "coreclr",
       "request": "launch",
+      "preLaunchTask": "build McpClientLlm",
       "program": "${workspaceFolder}/McpClientLlm/bin/Debug/net9.0/McpClientLlm.dll",
-      "args": [],
       "cwd": "${workspaceFolder}/McpClientLlm",
       "envFile": "${workspaceFolder}/McpClientLlm/.env",
-      "stopAtEntry": false,
-      "console": "integratedTerminal",
-      "internalConsoleOptions": "neverOpen"
+      "console": "integratedTerminal"
     }
   ]
 }

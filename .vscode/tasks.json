@@ -14,6 +14,20 @@
         "kind": "build",
         "isDefault": true
       }
+    },
+    {
+      "label": "build McpClientLlm",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "${workspaceFolder}/McpClientLlm/McpClientLlm.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
     }
   ]
 }
